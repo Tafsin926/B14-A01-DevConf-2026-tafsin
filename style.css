@@ -153,25 +153,24 @@ align-items: center;
 /* pricing card starts here */
 
 
-/* .price-card-section{
-    padding: 0px 60px;
-    padding-bottom: 80px;
-} */
-
-.price-card-parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.price-card {
+    display: grid; 
+    display: inline-block;
+    vertical-align: top;
+ 
+    margin: 10px;
+    grid-template-columns: repeat(3,1fr);
     padding-top: 48px;
     column-gap: 20px;
     border: 1px solid #2563eb;
     border-radius: 12px;
-    padding: 32px 32px;
+    padding: 32px 32px; 
 }
-
-.price-card-parent {
-     width: 100%;
-    height: 100%; 
-
+.price-card-section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .price-title {
@@ -192,22 +191,26 @@ align-items: center;
     font-size: 10px;
     font-weight: 600;
 }
-.price-card {
+/* .price-card-parent.price-card {
     display: grid;
     justify-content: center;
     align-items: center;
     border: 1px solid #2563eb;
     border-radius: 12px;
     text-align: center;
-}
-.price-card-basic ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: 32px;
+} */
+/* .price-card-basic ul{
     display:grid;
     align-self: center;
-    padding: 5px 0px;
+  
+} */
+.price-card pro{
+     background-color: #0d1b2a;
 }
-pro{ background-color: #0d1b2a;
-}
-
+.price-card,.common-btn { margin-top: 10px;}
 
 /*  Ai Generated promts starts here */
 
@@ -226,7 +229,7 @@ pro{ background-color: #0d1b2a;
 /* Parent */
 
 .benefit-grid {
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
