@@ -293,6 +293,7 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    align-content: flex-start;
     text-align: center;
     padding-top: 15px;
 }
@@ -311,6 +312,14 @@ align-items: center;
     border: none;
     border-top: 1px solid #555;
 }
-.footer-left span{ color: rgb(238, 90, 15);
 
+.footer-left img{
+    margin-bottom: 15px;
 }
+
+.footer-left span{
+    display: inline-block;
+    color: rgb(238, 90, 15);
+    gap: 5px;
+}
+
