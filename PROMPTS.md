@@ -1,6 +1,7 @@
 
 <!-- ai prompts html -->
 
+here is the missing part sample,add a missing part with relevent section like sponsors,venue,FAQ, etc. use only html and css what we have discussed and learn together. dont use css framework and advance tags,selector,flex or grid properties i dont know, do it simple.
 
         <section class="benefits">
             <h2>Why Attend DevConf 2026?</h2>
