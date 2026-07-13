@@ -61,21 +61,22 @@
 }
 
 header{
-    background-image: url(./assets/banner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./assets/banner.jpg);
 
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: grid;
-    margin: 16px;
 }
-.banner div { display: grid;
-     align-items: center;
-    justify-content: center; 
+.banner div{ display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
     color: #ffffff;
     text-align: center; 
 }
+
 .banner div h3 {
     color: #ffffff;
     font-weight: bold;
@@ -89,11 +90,8 @@ header{
     font-size: 16px;
     padding: 5px 15px;
 } 
-.common-btn{ display: flex;
-justify-content: center;
-align-items: center;
-
-}
+.banner.bl{ font-family: italic;
+font-weight: bold;}
 
    
 /* image parent starts here */
